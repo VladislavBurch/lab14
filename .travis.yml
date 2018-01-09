@@ -1,0 +1,9 @@
+language: cpp
+
+cache:
+  directories:
+  - "$HOME/.hunter"
+
+script:   
+- cmake -H. -B_build
+- cmake --build _build
