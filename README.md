@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/VladislavBurch/lab14.svg?branch=master)](https://travis-ci.org/VladislavBurch/lab14)
+[![Build Status](https://travis-ci.org/VladislavBurch/lab14_true.svg?branch=master)](https://travis-ci.org/VladislavBurch/lab14_true)
 
 ## Laboratory work XIV
 
