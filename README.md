@@ -1,14 +1,10 @@
 [![Build Status](https://travis-ci.org/VladislavBurch/lab14_true.svg?branch=master)](https://travis-ci.org/VladislavBurch/lab14_true)
 
-## Laboratory work XIV
-
 ```
 $ http://www.boost.org/doc/libs/1_64_0/doc/html/process.html
 ```
 
-### Задание
-
-Написать программу на **C++** для упрощения процесса сборки, установки и упаковки проектов основанных на конфигурационных файлах **CMakeLists.txt**.
+Программа на **C++** для упрощения процесса сборки, установки и упаковки проектов основанных на конфигурационных файлах **CMakeLists.txt**.
 
 Исполняемый файл программы должен иметь название **builder** и поддерживать следующие опции запуска:
 
@@ -72,9 +68,9 @@ $ cmake -H. -B_builds -DCMAKE_INSTALL_PREFIX=_install -DCMAKE_BUILD_TYPE=Debug
 $ cmake --build _builds
 ```
 
-### Требования
+### Особенности
 
-1. Для работы с процессами необходимо использовать библиотеку **Boost.Process**.
+1. Для работы с процессами используется библиотека **Boost.Process**.
 
 2. В случае если время ожидания истекает, то программа завершает **все** дочерние запущенные процессы.
 
